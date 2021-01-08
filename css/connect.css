@@ -1,0 +1,15 @@
+.left{
+    float: left;
+}
+main {
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

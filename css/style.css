@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.dark{
+    background-color: #1c0f13!important;
+}
+.grey {
+    background-color: #6E7E85!important;
+}
+
+.txt_light {
+    color: lightgray;
+}
+
+
+.sized {
+    height: 800px;
+}
+
+.relative {
+    position: relative;
+    overflow-y: scroll;
+}
+
+#player_connected{
+    height: 100px;
+    background-color: grey;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+#name{
+    border-top: 2px black solid ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: red;
+}
+
+#name > p {
+    margin: 4px;
+    padding: 3px;
+    text-align: center;
+    border-right: black 3px solid;
+}
+
+
+
+.form-control {
+    height: 150px;
+}
+
+#tchat_area{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
